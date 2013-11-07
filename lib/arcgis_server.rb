@@ -1,5 +1,7 @@
+require "her"
+
 require "arcgis_server/version"
 
-module ArcgisServer
-  # Your code goes here...
-end
+require "arcgis_server/catalog"
+require "arcgis_server/feature_server"
+require "arcgis_server/layer"
